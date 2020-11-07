@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         public string ExecuteADBCMD(string command, int seconds)
         {
-            string output = ""; //输出字
+            string output = ""; //输出
             if (command != null && !command.Equals(""))
             {
                 Process process = new Process();//创建进程对象
